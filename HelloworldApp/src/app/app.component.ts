@@ -10,9 +10,9 @@ import { FormsModule } from '@angular/forms';
 })
 export class AppComponent {
   title="Helloworld";
-  userName: string = '';
   imgUrl: string = './assets/logo.jpg';
   url="https://www.bridgelabz.com";
+ 
   ngOnInit():void{
     this.title="Hello from Bridgelabz";
   }
