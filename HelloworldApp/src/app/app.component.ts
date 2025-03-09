@@ -1,6 +1,4 @@
 import { Component } from '@angular/core';
-import  { RouterModule } from '@angular/router';
-import { FormsModule } from '@angular/forms';
 
 @Component({
   selector: 'app-root',
@@ -9,8 +7,7 @@ import { FormsModule } from '@angular/forms';
 })
 export class AppComponent {
   title="Helloworld";
-  imgUrl: string = './assets/logo.jpg';
-   
+     
   ngOnInit():void{
     this.title="Hello from Bridgelabz";
   }
